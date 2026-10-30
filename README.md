@@ -88,10 +88,6 @@ A pasta `cypress/pages/` concentra as classes responsáveis por representar as p
 
 A pasta `cypress/factories/` contém funções responsáveis pela geração de dados de teste, como usuários com e-mails dinâmicos e informações de pagamento.
 
-### Flows
-
-A pasta `cypress/flows/` concentra fluxos de negócio reutilizáveis. O fluxo de compra, por exemplo, reúne as etapas de adicionar produtos ao carrinho e finalizar o pedido.
-
 ### Testes E2E
 
 A pasta `cypress/e2e/` contém os arquivos de especificação, organizados por funcionalidade.
@@ -167,7 +163,7 @@ O projeto utiliza GitHub Actions para executar automaticamente os testes.
 O workflow está localizado em:
 
 ```text
-.github/workflows/cypress.yml
+.github/workflows/testes.yml
 ```
 
 A execução é configurada para ocorrer em:
