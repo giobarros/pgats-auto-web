@@ -38,9 +38,6 @@ auto_web/
 │   ├── factories/
 │   │   └── user.factory.js
 │   │
-│   ├── flows/
-│   │   └── compra.flow.js
-│   │
 │   ├── pages/
 │   │   ├── cart.page.js
 │   │   ├── checkout.page.js
@@ -188,25 +185,3 @@ O pipeline realiza as seguintes etapas:
 5. Disponibiliza o relatório Mochawesome como artefato da execução.
 
 O relatório pode ser baixado na seção **Artifacts** de cada execução do workflow.
-
-## Resultados da execução
-
-Na execução validada localmente e no GitHub Actions, foram obtidos os seguintes resultados:
-
-| Indicador | Resultado |
-|---|---:|
-| Arquivos de especificação | 5 |
-| Cenários executados | 10 |
-| Testes aprovados | 10 |
-| Testes com falha | 0 |
-| Taxa de aprovação | 100% |
-
-O relatório Mochawesome também foi gerado e enviado com sucesso como artefato do GitHub Actions.
-
-## Repositório
-
-[GitHub – PGATS Auto Web](https://github.com/giobarros/pgats-auto-web)
-
-## Aplicação sob teste
-
-[Automation Exercise](https://www.automationexercise.com/)
